@@ -1,0 +1,36 @@
+{
+  "name": "@logiscool/liveops-core",
+  "version": "0.27.1",
+  "author": "Logiscool Kft. <ajuhos@logiscool.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@types/redis": "^2.8.12",
+    "@types/socket.io": "^2.1.2",
+    "axios": "^0.19.0",
+    "debug": "^4.1.1",
+    "node-redis-pubsub": "^4.0.0",
+    "obj-parse": "^0.3.0",
+    "redis": "^2.8.0",
+    "redis-leader": "^0.1.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "socket.io": "^2.2.0",
+    "socket.io-redis": "^5.2.0",
+    "uuid": "^3.3.2"
+  },
+  "peerDependencies": {
+    "redux-socket-client": "^0.1.13",
+    "redux-socket-server": "^0.1.35"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.2",
+    "redux-socket-client": "^0.1.13",
+    "redux-socket-server": "^0.1.35",
+    "typescript": "3.4.5"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "liveops-community",
+  "private": true,
+  "workspaces": [
+    "logiscool-liveops-core",
+    "logiscool-liveops-broker"
+  ]
+}

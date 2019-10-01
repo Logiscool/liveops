@@ -1,0 +1,39 @@
+{
+  "name": "@logiscool/liveops-broker",
+  "version": "0.27.1",
+  "author": "Logiscool Kft. <ajuhos@logiscool.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@logiscool/liveops-core": "0.27.1",
+    "@types/express": "^4.16.1",
+    "@types/node": "12.0.2",
+    "@types/redis": "^2.8.12",
+    "@types/request-promise-native": "^1.0.16",
+    "@types/socket.io": "^2.1.2",
+    "@types/web-push": "^3.3.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "cron-cluster": "^1.1.3",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.11",
+    "redis": "^2.8.0",
+    "redis-leader": "^0.1.0",
+    "redux-socket-client": "^0.1.13",
+    "redux-socket-server": "^0.1.35",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "socket.io": "^2.2.0",
+    "socket.io-redis": "^5.2.0",
+    "typescript": "3.4.5",
+    "uuid": "^3.3.2",
+    "web-push": "^3.3.5"
+  },
+  "scripts": {
+    "start": "node dist"
+  }
+}
