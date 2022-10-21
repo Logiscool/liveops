@@ -20,7 +20,7 @@
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "moment": "^2.24.0",
-    "mongoose": "^5.5.11",
+    "mongoose": "^5.7.5",
     "redis": "^2.8.0",
     "redis-leader": "^0.1.0",
     "redux-socket-client": "^0.1.13",
